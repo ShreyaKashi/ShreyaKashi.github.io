@@ -1,1 +1,21 @@
-<h1>Website works</h1>
+<div class="global-container">
+  <div class="page-border" [ngStyle]="{'background-color': routeConfig[pageName].bgColor}"></div>
+  <div class="global-container-sub">
+    <div class="nav-global" [ngStyle]="{'background-image': routeConfig[pageName].bgImage}">
+      <div class="nav-container">
+        <div class="adjust-nav-height">
+          <nav>
+            <a routerLink={{routeConfig.home.path}} routerLinkActive="active"
+              (click)="setCurrentPage('home')">{{routeConfig.home.title}}</a>
+            <a routerLink={{routeConfig.writing.path}} routerLinkActive="active"
+              (click)="setCurrentPage('writing')">{{routeConfig.writing.title}}</a>
+            <a routerLink={{routeConfig.tech.path}} routerLinkActive="active"
+              (click)="setCurrentPage('tech')">{{routeConfig.tech.title}}</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <router-outlet></router-outlet>
+
+  </div>
+</div>
