@@ -13,7 +13,7 @@ export const routes: Routes = [
 
 
 export const routeLookUp = {
-  'home': { path: 'home', title: 'Home', bgImage: "url('../assets/images/head-flower-img.png')", bgColor: "#3d6b8d" },
+  'home': { path: 'home', title: 'Home', bgImage: "url('../assets/images/pink-flowers-meadow-plants-hill.jpg')", bgColor: "#3d6b8d" },
   'writing': { path: 'written-content', title: 'Writing', bgImage: "url('../assets/images/abstract_cropped.jpg')", bgColor: "#185660" },
   'tech': { path: 'tech', title: 'Tech corner', bgImage: "url('../assets/images/tech.jpg')", bgColor: "#e34827" },
 }

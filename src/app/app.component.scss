@@ -16,11 +16,10 @@
     .nav-global {
         height: 570px;
         background-repeat: no-repeat;
-        background: round;
 
         .nav-container {
             .adjust-nav-height {
-                height: 30px;
+                height: fit-content;
                 background-color: rgba(255, 255, 255, 0.4);
                 padding: 20px 0;
             }

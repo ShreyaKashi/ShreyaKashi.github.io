@@ -1,0 +1,7 @@
+<div *ngFor="let group of menuArr; let i = index">
+    {{group.groupHead}}
+
+    <div *ngFor="let groupPage of group.groupPages">
+        <a (click)="onClickLink(groupPage.id)">{{groupPage.heading}}</a>
+    </div>
+</div>
