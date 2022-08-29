@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { writtenContent } from './written-content'
 
 @Component({
   selector: 'app-written-content',
@@ -8,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class WrittenContentComponent implements OnInit {
 
   constructor() { }
-
+  menuArr = writtenContent;
   ngOnInit(): void {
   }
 

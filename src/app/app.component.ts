@@ -16,6 +16,7 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     this.routeConfig = RouteConfig.routeLookUp;
     this.pageName = 'home';
+    this.setCurrentPage('home', '/home')
   }
 
   setCurrentPage(pageName: string, pageURL: string) {
