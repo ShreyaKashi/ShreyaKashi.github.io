@@ -13,5 +13,23 @@
         padding: 15px;
         border-radius: 5px;
         margin: 50px 20px;
+
+        .contact-child {
+            display: flex;
+            justify-content: space-between;
+            a {
+                vertical-align: text-bottom;
+                padding-left: 15px;
+            }
+            .contact-location {
+                padding-left: 15px;
+            }
+        }
+    }
+
+    .welcome-container {
+        font-family: 'Didot', serif;
+        text-align: center;
+        margin-top: 30px;
     }
 }

@@ -12,6 +12,7 @@
     margin-left: auto;
     margin-right: auto;
     min-height: 100vh;
+    border: 1px solid #88888873;
 
     .nav-global {
         height: 570px;
@@ -38,7 +39,7 @@
                     padding: 5px 0px;
                 }
 
-                a:hover, a:focus{
+                a:hover, a:focus {
                     font-weight: 700;
                 }
             }
