@@ -8,7 +8,7 @@
 
 .global-container-sub {
     background-color: white;
-    max-width: 1500px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     min-height: 100vh;
@@ -17,6 +17,19 @@
     .nav-global {
         height: 570px;
         background-repeat: no-repeat;
+
+        .profile-parent {
+            display: flex;
+            justify-content: end;
+            margin-right: 150px;
+            margin-top: 50px;
+
+            .profile-pic {
+                height: 400px;
+                width: 250px;
+            }
+        }
+        
 
         .nav-container {
             .adjust-nav-height {
@@ -42,10 +55,19 @@
                 a:hover, a:focus {
                     font-weight: 700;
                 }
+
+ 
+                .welcome-container {
+                    font-family: 'Didot', serif;
+                    text-align: center;
+                    margin-top: 30px;
+                }
+                }
             }
-        }
+        
     }
 
 
 
 }
+

@@ -5,15 +5,20 @@
       <div class="nav-container">
         <div class="adjust-nav-height">
           <nav>
-            <a (click)="setCurrentPage('home', '/home')">{{routeConfig.home.title}}</a>
+            <h3 class="welcome-container">Shreya Kashi
+            </h3>
+            <!-- <a (click)="setCurrentPage('home', '/home')">{{routeConfig.home.title}}</a> -->
             <!-- <a (click)="setCurrentPage('writing', '/written-content')">{{routeConfig.writing.title}}</a> -->
-            <a (click)="setCurrentPage('tech', '/tech')">{{routeConfig.tech.title}}</a>
+            <!-- <a (click)="setCurrentPage('tech', '/tech')">{{routeConfig.tech.title}}</a> -->
           </nav>
         </div>
       </div>
+      <!-- <div class="profile-parent">
+        <img  class="profile-pic" src="../assets/images/profile_photo.jpg"/>
+      </div> -->
     </div>
     <router-outlet></router-outlet>
-    <p style="font-size: 15px; margin-left: 30px;  position: fixed;
+    <p style="font-size: 10px; margin-left: 30px;
     bottom: 0;">I don't own any banner images or icons.</p>
   </div>
 </div>

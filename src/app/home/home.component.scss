@@ -7,6 +7,14 @@
 .home-container {
     margin-left: 15px;
     margin-right: 15px;
+
+    .home-bio {
+        padding: 30px;
+
+        .home-bio-interests {
+            margin-top: 10px;
+        }
+    }
     
     .imp-info-container {
         border: 1px solid black;
