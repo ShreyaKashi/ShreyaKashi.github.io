@@ -5,7 +5,7 @@ import { WrittenContentComponent } from "./written-content/written-content.compo
 
 
 export const routes: Routes = [
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: '', redirectTo: '.', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'written-content', component: WrittenContentComponent },
   { path: 'tech', component: TechCornerComponent }
