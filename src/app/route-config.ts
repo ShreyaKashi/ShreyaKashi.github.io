@@ -5,12 +5,13 @@ import { WrittenContentComponent } from "./written-content/written-content.compo
 
 
 export const routes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  // { path: '', redirectTo: '', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'written-content', component: WrittenContentComponent },
   { path: 'tech', component: TechCornerComponent }
 ];
 
+// https://shreyakashi.github.io/index.html
 
 export const routeLookUp = {
   'home': { path: 'home', title: 'Home', bgImage: "url('../assets/images/pink-flowers-meadow-plants-hill.jpg')", bgColor: "#3d6b8d" },
