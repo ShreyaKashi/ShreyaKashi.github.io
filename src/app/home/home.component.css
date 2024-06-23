@@ -35,8 +35,7 @@
     
         .intro-text {
             max-width: 950px;
-        } 
-        
+        }
     }
     .projects-container {
         margin-top: 50px;
@@ -69,8 +68,34 @@
     
         .intro-parent {
             display: inline-block;
+
+            .profile-img {
+                display: flex;
+                justify-content: center;
+            }
             
         }    
+
+        .projects-container {
+            .projects-parent {
+                .tempo_imgs {
+                    display: inline-block;
+
+                    :is(img) {
+                        max-width: 300px;
+                    }
+                }
+
+                .watershed-img {
+                    display: inline-block;
+
+                    :is(img) {
+                        max-width: 300px;
+                    }
+                  
+                }
+            }
+        }
     }
 
 }
