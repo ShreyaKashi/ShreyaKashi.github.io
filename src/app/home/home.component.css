@@ -1,0 +1,61 @@
+
+.global {
+    max-width: 1200px;
+    margin: 100px auto;
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+
+        .logos {
+            display: flex;
+            justify-content: end;
+            .logo-ind {
+                width: 35px;
+                height: 35px;
+            }
+        }
+
+        .git-logo {
+            margin-right: 10px;
+        }
+        .link-logo {
+            margin-left: 10px;
+        }
+        
+    }
+
+    
+
+    .intro-parent {
+        display: flex;
+        justify-content: space-between;
+    
+        .intro-text {
+            font-size: 20px;
+            max-width: 950px;
+            text-align: justify;
+        } 
+        
+    }
+    .projects-container {
+        margin-top: 50px;
+        .projects-parent {
+            
+        }
+    }
+    
+}
+
+
+@media (max-width: 800px) {
+
+    .global {
+    
+        .intro-parent {
+            display: inline-block;
+            
+        }    
+    }
+
+}
