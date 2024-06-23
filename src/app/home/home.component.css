@@ -2,6 +2,8 @@
 .global {
     max-width: 1200px;
     margin: 100px auto;
+    font-size: 20px;
+    text-align: justify;
 
     .header {
         display: flex;
@@ -9,7 +11,7 @@
 
         .logos {
             display: flex;
-            justify-content: end;
+            justify-content: flex-end;
             .logo-ind {
                 width: 35px;
                 height: 35px;
@@ -32,16 +34,29 @@
         justify-content: space-between;
     
         .intro-text {
-            font-size: 20px;
             max-width: 950px;
-            text-align: justify;
         } 
         
     }
     .projects-container {
         margin-top: 50px;
         .projects-parent {
-            
+            .tempo_imgs {
+                display: flex;
+                justify-content: space-evenly;
+
+                :is(img) {
+                    max-width: 350px;
+                    max-height: 350px;
+                    margin: 30px;
+                }
+            }
+
+            .watershed-img {
+                display: flex;
+                justify-content: center;
+                margin: 30px;
+            }
         }
     }
     
