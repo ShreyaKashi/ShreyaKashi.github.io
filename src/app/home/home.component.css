@@ -1,3 +1,6 @@
+:is(a) {
+    color: blueviolet;
+}
 
 .global {
     max-width: 1200px;
@@ -32,11 +35,22 @@
     .intro-parent {
         display: flex;
         justify-content: space-between;
+        margin-bottom: 50px;
     
         .intro-text {
             max-width: 950px;
         }
+        
     }
+
+    .projects-container:before {
+        content: "";
+        display: block;
+        width: 70%;
+        margin: 1em auto 0;
+        border-bottom: solid;
+    }
+
     .projects-container {
         margin-top: 50px;
         .projects-parent {
@@ -62,7 +76,7 @@
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 950px) {
 
     .global {
     
