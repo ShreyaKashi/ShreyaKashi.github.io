@@ -30,26 +30,60 @@
         <h2>Projects</h2>
         <div class="projects-parent">
             <ol>
-                <a href="https://drive.google.com/file/d/1TVO8jzVVdSNwo0qbw99axOchKSVOOsy8/view?usp=drive_link"><li>Stacked Hourglass Network for Efficient Multi-View Pose Estimation, Tracking,
+                <div>
+                    <a href="https://drive.google.com/file/d/1TVO8jzVVdSNwo0qbw99axOchKSVOOsy8/view?usp=drive_link"><li>Stacked Hourglass Network for Efficient Multi-View Pose Estimation, Tracking,
                     and Forecasting</li></a>
+
+                    <div class="button-tile-parent">
+                        <div class="button-tile" style="background-color: #bdd0c4;">3D pose estimation</div>
+                        <div class="button-tile" style="background-color: #9ab7d3;">3D object detection</div>
+                        <div class="button-tile" style="background-color: #f5d2d3;">Stacked hourglass network</div>
+                        <div class="button-tile" style="background-color: #f7e1d3">Spatial GRU</div>
+                    </div>
+
                     <!-- <p>Key point detection</p> -->
                     <div class="tempo_imgs">
                         <img src="assets/qual_res1.png">
                         <img src="assets/qual_res2.png">
                     </div>
                     <p>Current state-of-the-art 3D pose estimation techniques use 2D CNNs to regress 2D pose in the projections of 3D volume. However, CNNs fail to capture relative joint label information which is required while predicting human poses. Stacked hourglass network has been used to address label correlation for pose estimation. In this project we replace 2D CNNs with SHG network and show that they offer accuracy boost in pose estimation.</p>
-                    
-                <a href="https://drive.google.com/file/d/12FBl5KFusFCCktN8WmDOWztym4IyOB2L/view?usp=drive_link"><li>Detecting Center Pivot Irrigation Systems in Satellite Images</li></a>
-                <div class="watershed-img">
-                    <img src="assets/watershed.png">
                 </div>
-                <p>Center pivot irrigation systems take up a lot of water. For water resource management and planning, it is essential to identify their numbers and the area irrigated by them. In this project we semantically segment these irrigation sytems using a U-net, detect individual instances using the watershed algorithm and regress the angle spanned by them.</p>
-                
-                <a href="https://github.com/ShreyaKashi/hti-cryo-em/tree/develop"><li>Identifying noisy images in the 2D Classification step of Cryo-EM</li></a>
-                <p>3D density map construction in Cryo-EM requires clear, noise-free averaged 2D images. In this project I used a SVM and CNN to classify each image as clean or noisy based on the EMPAIR annotated dataset.</p>
-                
-                <a href="https://drive.google.com/file/d/1wWE4e98mETjsbbUCSMyAZAZVWPrenHHs/view"><li>Key Value Pair Extraction from Scanned Documents</li></a>
-                <p>Using both layout information (RCNN) and textual association (BERT), we extract key-value pairs in PDF files. </p>
+
+                <div>
+                    <a href="https://drive.google.com/file/d/12FBl5KFusFCCktN8WmDOWztym4IyOB2L/view?usp=drive_link"><li>Detecting Center Pivot Irrigation Systems in Satellite Images</li></a>
+                    <div class="button-tile-parent">
+                        <div class="button-tile" style="background-color: #dfccf1;">2D instance segmentation</div>
+                        <div class="button-tile" style="background-color: #f7e1d3;">U-net</div>
+                        <div class="button-tile" style="background-color: #bdd0c4;">Watershed algorithm</div>
+                        <div class="button-tile" style="background-color: #f5d2d3">QGIS</div>
+                    </div>
+                    <div class="watershed-img">
+                        <img src="assets/watershed.png">
+                    </div>
+                    <p>Center pivot irrigation systems take up a lot of water. For water resource management and planning, it is essential to identify their numbers and the area irrigated by them. In this project we semantically segment these irrigation sytems using a U-net, detect individual instances using the watershed algorithm and regress the angle spanned by them.</p>
+                </div>
+
+                <div>
+                    <a href="https://github.com/ShreyaKashi/hti-cryo-em/tree/develop"><li>Identifying noisy images in the 2D Classification step of Cryo-EM</li></a>
+                    <div class="button-tile-parent">
+                        <div class="button-tile" style="background-color: #ffd3b6;">Classification</div>
+                        <div class="button-tile" style="background-color: #a8e6cf;">2D CNN</div>
+                        <div class="button-tile" style="background-color: #bdeeed">SVM</div>
+                        <div class="button-tile" style="background-color: #f0edaa;">Cryo-EM</div>
+                    </div>
+                    <p>3D density map construction in Cryo-EM requires clear, noise-free averaged 2D images. In this project I used a SVM and CNN to classify each image as clean or noisy based on the EMPAIR annotated dataset as the ground truth.</p>
+                </div>
+
+                <div>
+                    <a href="https://drive.google.com/file/d/1wWE4e98mETjsbbUCSMyAZAZVWPrenHHs/view"><li>Key Value Pair Extraction from Scanned Documents</li></a>
+                    <div class="button-tile-parent">
+                        <div class="button-tile" style="background-color: #cfdbdb;">Multimodal</div>
+                        <div class="button-tile" style="background-color: #bdd0c4;">BERT</div>
+                        <div class="button-tile" style="background-color: #9ab7d3">Faster-RCNN</div>
+                        <div class="button-tile" style="background-color: #f5d2d3;">Named-entity recognition</div>
+                    </div>
+                    <p>Using both layout information (RCNN) and textual association (BERT), extracted key-value pairs in PDF files. </p>
+                </div>
             </ol>
             
 

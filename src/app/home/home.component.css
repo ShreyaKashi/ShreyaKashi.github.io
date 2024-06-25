@@ -2,6 +2,22 @@
     color: blueviolet;
 }
 
+.button-tile-parent {
+    margin-top: 15px;
+    
+    .button-tile {
+        display: inline;
+        border: 1px solid white;
+        border-radius: 5px;
+        width: fit-content;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 5px;
+        font-size: 16px;
+    }
+}
+
+
 .global {
     max-width: 1200px;
     margin: 100px auto;
@@ -52,6 +68,9 @@
     }
 
     .projects-container {
+        :is(li) {
+            font-weight: bold;
+        }
         margin-top: 50px;
         .projects-parent {
             .tempo_imgs {
@@ -77,6 +96,14 @@
 
 
 @media (max-width: 950px) {
+
+    .button-tile-parent {
+        
+        .button-tile {
+            display: inline-block;
+            margin: 5px;
+        }
+    }
 
     .global {
     
